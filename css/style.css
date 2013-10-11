@@ -647,6 +647,10 @@ ul li, ol li {
 	font-size: 20px;
 }
 
+#store-buttons a {
+	margin-right: 10px;
+}
+
 #index-02 {
   background: #332555;
 }
