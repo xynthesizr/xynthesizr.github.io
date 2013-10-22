@@ -458,13 +458,13 @@ body {
   background: #121320;
   color: #fefefe;
   display: table;
-  font-family: Open Sans, "Open Sans", "open-sans", sans-serif;
+  font-family: 'Roboto Condensed', 'Open Sans', sans-serif;
   font-size: 16px;
+  font-weight: 300;
   height: 100%;
   line-height: 1;
   position: static;
-  top: 0;
-  word-spacing: -0.02em; }
+  top: 0; }
 
 ::selection {
   background: #606575;
@@ -616,7 +616,7 @@ ul li, ol li {
   #index-01 .points li, #index-02 .points li, #index-03 .points li {
     margin: 11px 0;
     padding: 0 0 0 1rem;
-    text-indent: -1rem;
+    text-indent: -0.5rem;
     width: 250px; }
     #index-01 .points li:before, #index-02 .points li:before, #index-03 .points li:before {
       content: "•" " "; }
@@ -627,7 +627,7 @@ ul li, ol li {
     margin: 0 0 0 15px; }
 
 #index-01 {
-  font-family: 'Oswald', Open Sans, "Open Sans", "open-sans", sans-serif;
+  font-family: 'Oswald', 'Open Sans', sans-serif;
   font-weight: 300;
   background-color: #121320;
   /*background: url("../images/overtheledge-blur.jpg") no-repeat top left;*/
