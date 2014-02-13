@@ -1,19 +1,17 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"><![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+<html lang="en">
   <head>
 	<link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
     <meta charset="utf-8"/>
-    <title>Xynthesizr - a grid-based music synthesizer for iPhone</title>
+    <title>Xynthesizr: 32-step matrix sequencer/synthesizer with generative features and MIDI for iPhone and iPod touch</title>
     
     <meta name="description" content=""/>
-	<meta name="keywords" content="tone matrix, synthesizer, game of life, generative music, music, iphone app, ios app" />
-    <meta name="viewport" content="width=970">
+	<meta name="keywords" content="xynthesizr, matrix, sequencer, tone matrix, synthesizer, game of life, generative music, music, iphone app, ios app" />
+    <!--meta name="viewport" content="width=750"-->
 
+	<link rel="stylesheet" href="css/reset.css"/>
     <link rel="stylesheet" href="css/style.css"/>
 
     <!--[if lt IE 9]>
@@ -29,13 +27,10 @@
 
   <body>
 
-    <div class="wrapper">
-
-      <section id="index-01" class="content-box">
-        <div class="internal-wrapper cf">
-          <div class="left info">
-            XYNTHESIZR
-            <div id="store-buttons">
+    <div id="wrapper">
+    	<div id="header">
+		<h1>XYNTHESIZR</h1>
+        <div id="store-buttons">
             	<a href="https://itunes.apple.com/us/app/xynthesizr/id720810459?ls=1&mt=8">
             		<img src="images/Download_on_the_App_Store_Badge_US-UK_135x40.png" width="135" height="40" alt="Download on the App Store" title="Download on the App Store"/>
             	</a>
@@ -43,72 +38,54 @@
 					<img src="images/Audiobus-Badge-Input-94x40.png" width="94" height="40" alt="Audiobus Compatible" title="Audiobus Compatible" />
 				</a>
             </div>
-          </div>
-
+        <!--iframe width="300" height="440" src="http://www.youtube.com/embed/NfnqHU7QSxs" frameborder="0" allowfullscreen></iframe>
+        <iframe width="300" height="440" src="http://www.youtube.com/embed/NfnqHU7QSxs" frameborder="0" allowfullscreen></iframe-->
           <div class="right iphone">
             <img src="images/screens.png"/>
           </div>
-        </div>
+		</div>
+      <div id="description">
 
-      </section>
-
-      <section id="index-02" class="content-box">
-        <div class="internal-wrapper cf">
-
-          <h2 class="headline"><strong>Xynthesizr</strong> is like ToneMatrix on steroids.<br/>It's an iPhone app that uses a grid to sequence a full-fledged polyphonic synthesizer.</h2>
-          
-          <ul class="things">
-            <li>
-              <img src="images/synth-features-icon.png"/>
-              <h3 class="thing-title">Synthesizer Features</h3>
-              <ul class="points">
-				<li>16 voice polyphony (12 for iPhone 3GS)</li>
-				<li>2 oscillators per voice</li>
-				<li>4 selectable waveforms (sine, triangle, sawtooth, square)</li>
-				<li>Detune control</li>
-				<li>4-pole (24 dB/oct) low-pass resonant filter</li>
-				<li>2 ADSR envelope generators (amplitude and filter frequency)</li>
-				<li>2 modulation LFOs</li>
-				<li>4 selectable LFO targets (filter frequency, pitch, amplitude, second oscillator detune)</li>
-				<li>Stereo reverb and randomized panner</li>
-              </ul>
-            </li>
-
-            <li>
-              <img src="images/sequencer-features-icon.png"/>
-              <h3 class="thing-title">Sequencer Features</h3>
-              <ul class="points">
-				<li>1-32 steps variable pattern length</li>
-				<li>Shake to clear</li>
-				<li>Tempo control (1-300 BPM)</li>
-				<li>2 pattern morphing algorithms: [Conway's Game of] Life-like cellular automata and randomized</li>
-				<li>Selectable keys and scales</li>
-				<li>Ability to tie consecutive notes of same pitch (effectively making them one long note)</li>
-				<li>Color-coded octaves</li>
-				<li>Scalar transposition</li>
-              </ul>
-            </li>
-
-            <li>
-              <img src="images/other-stuff-icon.png"/>
-              <h3 class="thing-title">Available via In-App Purchase</h3>
-              <ul class="points">
-              	<li>Record and export audio via SoundCloud®, Mail and iTunes File Sharing</li>
-				<li>Create your own scales and Life-like cellular automata rules</li>
-				<li>Save your presets and patterns</li>
-              </ul>
-            </li>
-
-          </ul>
-
-        </div><p><br/><br/></p>
-      </section>
-
-      <section id="footer" class="clearfix">      
+          <p class="headline"><strong>Xynthesizr</strong> is a streamlined yet capable 32-step <strong>matrix sequencer/synthesizer</strong> with <strong>generative features</strong> and <strong>MIDI</strong>.</p>
+          <p>Whether you are a musician who wants to get inspired and realize their ideas, or a person who enjoys easily creating electronic tunes, this app is for you.</p>
+          <p>Create patterns and modify them in real time, or let Xynthesizr do it for you using its <strong>morphing algorithms</strong>. Change <strong>scale</strong> and <strong>key</strong>, or <strong>transpose</strong> within a scale on-the-fly. Tweak parameters of the <strong>internal synthesizer</strong> or output <strong>MIDI</strong> to your favorite apps and devices. Record and share your creations.</p>
+<p><strong>General features:</strong>
+<ul>
+	<li><strong>MIDI</strong> support (including <strong>Virtual MIDI</strong>) for syncing and sending notes to synths, samplers and drum machines</li>
+    <li><strong>Notes to MIDI channel mapping</strong> for driving multiple apps or devices simultaneously</li>
+	<li><strong>Audiobus</strong> support</li>
+    <li><strong>Background audio</strong> support</li>
+    <li>40+ <strong>bundled presets</strong></li>
+    <li>Save your own <strong>patterns and presets</strong></li>
+    <li><strong>Record</strong> and export audio via <strong>AudioCopy, AudioShare, SoundCloud®, Mail and iTunes file sharing</strong></li>        
+</ul></p>
+<p><strong>Sequencer features:</strong>
+<ul>
+	<li><strong>Gestures</strong> to easily edit patterns on-the-fly</li>
+	<li>[Conway's Game of] <strong>Life-like cellular automata</strong> and <strong>probability-based pattern morphing</strong></li>
+	<li>Variable <strong>tempo</strong>, step length <strong>subdivision</strong> and <strong>pattern length</strong></li>    
+    <li>Selectable <strong>keys and scales</strong> with ability to <strong>transpose</strong> in real time</li>
+    <li>An option to <strong>tie consecutive notes</strong> of same pitch to make longer notes</li>
+    <li>Create and use your own <strong>scales and Life-like cellular automata rules</strong></li>
+    <li>Extended range (26 notes for 4-inch screen devices, 22 notes for 3.5-inch)</li>
+    <li>Color-coded octaves</li>
+</ul></p>
+<p><strong>Synthesizer and FX feature:</strong>
+<ul>
+	<li><strong>32-bit</strong> floating point sound engine</li>
+	<li>16 voice <strong>polyphony</strong> (12 on iPhone 3GS)</li>
+	<li>2 <strong>antialiased oscillators</strong> per voice</li>
+    <li>4 <strong>waveforms</strong> (sine, triangle, sawtooth, square)</li>
+    <li>4-pole (24 dB/oct) <strong>low-pass resonant filter</strong></li>
+    <li>2 <strong>ADSR</strong> envelope generators (amplitude and filter cutoff frequency)</li>
+    <li>2 <strong>LFOs</strong> to modulate 4 selectable LFO targets (filter frequency, pitch, amplitude, second oscillator detune)</li>
+    <li>Stereo <strong>delay</strong>, <strong>reverb</strong> and randomized <strong>panner</strong></li>
+</ul></p>
+</div>
+      <div id="footer">      
         <div>
 		  <iframe src="http://www.qontacto.com/f/525457ada2f19c83b300001a" data-aem="xynthesizr@gmail.com" width="100%" height="412px" style="width:100%;height:412px;border:0;"></iframe>
-        </div>
-      </section><p><br/><br/></p>
+        </div>      
 
     </div>
 
