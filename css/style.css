@@ -42,6 +42,15 @@ div#videos {
 	margin-bottom: 30px;
 }
 
+div#features {
+	margin-bottom: 30px;	
+}
+
+div#footer {
+	text-align: center;
+	color: #ADADBD;
+}
+
 h1 {
 	margin: 27pt 20pt 5pt 20pt;
 	font-family: 'Oswald', 'Avenir Next Condensed', 'Helvetica Neue', 'Helvetica', sans-serif;
