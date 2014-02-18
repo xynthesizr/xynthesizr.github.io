@@ -42,6 +42,10 @@ div#videos {
 	margin-bottom: 30px;
 }
 
+div#reviews {
+	margin-bottom: 30px;
+}
+
 div#features {
 	margin-bottom: 30px;	
 }
@@ -63,6 +67,12 @@ p, h2, h3, h4, h5 {
 	margin: 10pt 5pt 5pt 5pt;	
 }
 
+h2 {
+	font-size: 17pt;
+	font-weight: 400;
+	color:#CDD8FF
+}
+
 p.headline {
 	font-size: 15pt;
 	margin-bottom: 10pt;
@@ -71,6 +81,10 @@ p.headline {
 
 small {
 	font-size: 0.85em;	
+}
+
+span.stars {
+	margin-left: 0.4em;
 }
 
 ul {
