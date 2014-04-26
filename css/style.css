@@ -7,6 +7,26 @@ html {
 	font-weight: 300;
 }
 
+a {
+	color: #9FC4FF;
+}
+
+a:link {
+	color: #9FC4FF;
+}
+
+a:visited {
+	color: #9FC4FF;
+}
+
+a:hover {
+	color: #77A9FF;
+}
+
+a:active {
+	color: #C3E4FF;
+}
+
 strong {
 	font-weight: 700;
 }
@@ -25,10 +45,15 @@ div#screens {
 }
 
 div#store-buttons {
+	margin-bottom: 10px;	
+}
+ 
+div#social-buttons {
 	margin-bottom: 30px;	
 }
 
-div#store-buttons img {
+div#store-buttons img,
+div#social-buttons img {
 	margin-left: 5px;
 	margin-right: 5px;	
 }
